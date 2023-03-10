@@ -4,7 +4,7 @@
     rel="stylesheet"
     href="/Users/athomas/portfolio/src/assets/fonts.css"
   >
-    <header >
+    <header>
       <nav>
         <div class="logo">
           <img src="https://placehold.jp/x.png" />
@@ -21,15 +21,12 @@
       </nav>
     </header>
 
-    <div>
+    <div></div>
 
-
-    </div>
-    
     <main>
-      <section class="hero">
+      <section class="section-zero">
         <h1>
-          <div class="yes-i-that">
+          <div class="firstsentence">
             <span class="yes-i">Yes,I’m</span>
             <span class="that"> that</span><br />
           </div>
@@ -52,12 +49,18 @@
       <section class="section-one">
         <h3>Featured Projects</h3>
         <article>
-          <div class="featured-image"></div>
+          <div class="featured-image"><img
+                src="https://placehold.jp/800x600.png"
+                alt="Elephant at sunset"
+              /></div>
           <div class="description"></div>
         </article>
 
         <article>
-          <div class="featured-image"></div>
+          <div class="featured-image"><img
+                src="https://placehold.jp/800x600.png"
+                alt="Elephant at sunset"
+              /></div>
           <div class="description"></div>
         </article>
       </section>
@@ -263,8 +266,8 @@ table {
 
 //RESET Stuff up top, don't touch //
 
-header{
-  height:300px;
+header {
+  height: 300px;
 }
 
 body {
@@ -274,20 +277,30 @@ body {
 .container {
   color: #ffff;
   font-family: "Inter", sans-serif;
-  max-width: 1080px;
+  //max-width: 1080px;
 
-  
   @media only screen and (min-width: 400px) and (max-width: 1024px) {
-    margin: 0px;
+    //margin: 0px;
     width: 100%;
     border: 3px solid blue;
     padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ 
+    
+    
   }
   @media only screen and (min-width: 1025px) {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
   }
 }
 
@@ -310,16 +323,17 @@ body {
   margin-left: 638px;
 }
 
-.hero {
+.section-zero{
   font-size: 24px;
   font-weight: 400px;
+  
   //width: 684px;
   //height: 525px;
   //margin-top: 246px;
   //margin-left: 389px;
 }
 
-#yes-i-that {
+#firstsentence{
   padding-bottom: 55px;
   font-weight: 400;
 }
@@ -365,6 +379,10 @@ h2 {
   margin-left: 389px;
   width: 511.3px;
   height: 143.26px;
+}
+
+.section-one{
+  
 }
 </style>
 <script lang="ts" setup>
