@@ -9,3 +9,13 @@ cypress/videos
 yalc.lock
 cypress/videos
 .idea
+.DS_Store
+.vscode
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
