@@ -16,24 +16,24 @@
     <main>
       <section class="section-zero">
         <h1>
-          <div class="firstsentence">
-            <span class="yes-i">Yes,I’m</span>
-            <span class="that"> that</span><br />
+          <div class="sentence-one">
+            <span class="text__small">Yes,I’m that</span>
           </div>
 
-          <div id="first-last">
-            <span class="first-name">Luke</span>
-            <span class="last-name">Weston.</span>
+          <div id="sentence-two">
+            <span class="text__large">Luke Weston</span>
+         
           </div>
         </h1>
-        <h2 class="second-sentence">I make things for the internet.</h2>
+        <h2 class="text__medium">I make things for the internet.</h2>
 
-        <p class="more-accurately">
+        <p class="cta">
           More accurately, I get other people to do it because I’m a really busy
           guy and so are you!
+          <button class="button">Let's chat</button>
         </p>
 
-        <button class="button">Let's chat</button>
+        
       </section>
 
       <section class="section-one">
@@ -128,43 +128,9 @@
 </template>
 
 <style lang="scss">
-@import "/assets/body.css";
-@import "/assets/fonts.css";
-@import "/assets/reset.css";
-
-
-
-.container {
-  color: #ffff;
-  font-family: "Inter", sans-serif;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: flex-start;
-
-  //max-width: 1080px;
-
-  @media only screen and (min-width: 400px) and (max-width: 1024px) {
-    //margin: 0px;
-    width: 100%;
-    border: 3px solid red;
-  }
-  @media only screen and (min-width: 1025px) {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-  }
-}
-
-.menu-list {
-  list-style: none;
-
-  &__item {
-    display: inline;
-    padding: 0px 10px;
-  }
-}
+@import "/assets/body.scss";
+@import "/assets/fonts.scss";
+@import "/assets/reset.scss";
 </style>
 
 <script lang="ts" setup>
