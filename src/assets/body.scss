@@ -1,9 +1,12 @@
-// * {
-//   box-sizing: border-box;
-//   margin: 0;
-//   padding: 0;
-//   background-color: #000235;
-// }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000235;
+}
 
 .container {
   color: #ffff;
@@ -44,17 +47,16 @@
   flex-grow: 1;
   flex: 1 1 70%;
 }
-
+.section-subzero{
+  margin: auto;
+}
 .section-zero {
-  background-color: aquamarine;
-  
-  
-  
-  //gap: 1em;
+padding: 0% 10% 0% 10% ;
+
 }
 
 .sentence-one {
- // height: fit-content;
+  // height: fit-content;
 }
 
 .text {
@@ -76,9 +78,6 @@
     }
   }
 }
-
-
-
 
 .button {
   background-color: #7a7cff;
