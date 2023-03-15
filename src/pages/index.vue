@@ -18,11 +18,11 @@
         <div class="section-subzero">
           <h1>
             <div class="sentence-one">
-              <span class="text__small">Yes,I’m that</span>
+              <span class="text__small">Yes, I’m that</span>
             </div>
 
             <div id="sentence-two">
-              <span class="text__large">Luke Weston</span>
+              <span class="text__large">Luke Weston.</span>
             </div>
           </h1>
         </div>
@@ -31,7 +31,7 @@
         <p class="cta">
           More accurately, I get other people to do it because I’m a really busy
           guy and so are you!
-          <button class="button">Let's chat</button>
+          <button class="button">LET'S CHAT</button>
         </p>
       </section>
 

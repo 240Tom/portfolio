@@ -47,17 +47,26 @@ body {
   flex-grow: 1;
   flex: 1 1 70%;
 }
-.section-subzero{
-  margin: auto;
-}
-.section-zero {
-padding: 0% 10% 0% 10% ;
 
+.section-zero {
+  display: flex;  //Defines a block flex container
+  flex-wrap: wrap; //Not enough room? Go to the next row
+  flex-direction: column; //Direction of the flex 
+  justify-content: center; //Items are centered along the lines
+  align-content: flex-start; //Items are packed to the start of the container. 
+  gap: 5em;
+  padding-bottom: 150px;
+}
+
+.section-zero > * {
+  flex: 1 1 100%; // Flex grow, Flex shrink, flex basis.
 }
 
 .sentence-one {
-  // height: fit-content;
+  width: 150px;
+  padding-bottom: 50px;
 }
+
 
 .text {
   font-size: 24px;
@@ -69,6 +78,7 @@ padding: 0% 10% 0% 10% ;
   &__medium {
     //text__medium
     font-size: 44px;
+    color: #8B8787;
   }
   &__large {
     //text__large
@@ -79,9 +89,20 @@ padding: 0% 10% 0% 10% ;
   }
 }
 
+.cta{
+font-size: 32px;
+width: 511.3px;
+height: 143.26px;
+}
+
 .button {
   background-color: #7a7cff;
-  font-size: 24px;
+  font-size: 14px;
+  width: 162px;
+  height: 41.93px;
+  margin-top:41px;
+  color: white;
+  border-radius: 4px;
 }
 
 .menu-list {
