@@ -15,16 +15,17 @@
 
     <main>
       <section class="section-zero">
-        <h1>
-          <div class="sentence-one">
-            <span class="text__small">Yes,I’m that</span>
-          </div>
+        <div class="section-subzero">
+          <h1>
+            <div class="sentence-one">
+              <span class="text__small">Yes,I’m that</span>
+            </div>
 
-          <div id="sentence-two">
-            <span class="text__large">Luke Weston</span>
-         
-          </div>
-        </h1>
+            <div id="sentence-two">
+              <span class="text__large">Luke Weston</span>
+            </div>
+          </h1>
+        </div>
         <h2 class="text__medium">I make things for the internet.</h2>
 
         <p class="cta">
@@ -32,8 +33,6 @@
           guy and so are you!
           <button class="button">Let's chat</button>
         </p>
-
-        
       </section>
 
       <section class="section-one">
