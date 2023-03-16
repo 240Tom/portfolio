@@ -49,11 +49,11 @@ body {
 }
 
 .section-zero {
-  display: flex;  //Defines a block flex container
+  display: flex; //Defines a block flex container
   flex-wrap: wrap; //Not enough room? Go to the next row
-  flex-direction: column; //Direction of the flex 
+  flex-direction: column; //Direction of the flex
   justify-content: center; //Items are centered along the lines
-  align-content: flex-start; //Items are packed to the start of the container. 
+  align-content: flex-start; //Items are packed to the start of the container.
   gap: 5em;
   padding-bottom: 150px;
 }
@@ -67,7 +67,6 @@ body {
   padding-bottom: 50px;
 }
 
-
 .text {
   font-size: 24px;
   font-weight: 400;
@@ -78,21 +77,22 @@ body {
   &__medium {
     //text__medium
     font-size: 44px;
-    color: #8B8787;
+    color: #8b8787;
   }
   &__large {
     //text__large
     font-size: 64px;
-    &--yellow {
+    &--highlight {
+      //block_element--modifier
       color: rgb(197, 171, 38);
     }
   }
 }
 
-.cta{
-font-size: 32px;
-width: 511.3px;
-height: 143.26px;
+.cta {
+  font-size: 32px;
+  width: 511.3px;
+  height: 143.26px;
 }
 
 .button {
@@ -100,7 +100,7 @@ height: 143.26px;
   font-size: 14px;
   width: 162px;
   height: 41.93px;
-  margin-top:41px;
+  margin-top: 41px;
   color: white;
   border-radius: 4px;
 }
@@ -112,4 +112,17 @@ height: 143.26px;
     display: inline;
     padding: 0px 10px;
   }
+}
+
+.featured-writings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items:center;
+  box-sizing: border-box;
+}
+
+.featured-writings__article{
+  width: 33.33%;
+  box-sizing: border-box;
 }

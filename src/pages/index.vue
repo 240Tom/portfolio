@@ -22,7 +22,9 @@
             </div>
 
             <div id="sentence-two">
-              <span class="text__large">Luke Weston.</span>
+              <span class="text__large"
+                >Luke <span class="text__large--highlight">Weston.</span></span
+              >
             </div>
           </h1>
         </div>
@@ -35,7 +37,7 @@
         </p>
       </section>
 
-      <section class="section-one">
+      <!-- <section class="section-one">
         <h3>Featured Projects</h3>
         <article>
           <div class="featured-image">
@@ -56,71 +58,54 @@
           </div>
           <div class="description"></div>
         </article>
-      </section>
+      </section> -->
 
-      <section class="section-two">
+      <section>
         <h3>Featured Writings</h3>
-        <div>
-          <article>
-            <figure>
-              <img
-                src="https://placehold.jp/800x600.png"
-                alt="Elephant at sunset"
-              />
-              <figcaption>An elephant at sunset</figcaption>
-            </figure>
-          </article>
 
-          <article>
-            <figure>
-              <img
-                src="https://placehold.jp/800x600.png"
-                alt="Elephant at sunset"
-              />
-              <figcaption>An elephant at sunset</figcaption>
-            </figure>
-          </article>
+       <div class="featured-writings">
+         <article class="featured-writings__article">
+          <figure>
+            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+          </figure>
+        </article>
 
-          <article>
-            <figure>
-              <img
-                src="https://placehold.jp/800x600.png"
-                alt="Elephant at sunset"
-              />
-              <figcaption>An elephant at sunset</figcaption>
-            </figure>
-          </article>
+        <article class="featured-writings__article">
+          <figure>
+            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+          </figure>
+        </article>
 
-          <article>
-            <figure>
-              <img
-                src="https://placehold.jp/800x600.png"
-                alt="Elephant at sunset"
-              />
-              <figcaption>An elephant at sunset</figcaption>
-            </figure>
-          </article>
+        <article class="featured-writings__article">
+          <figure>
+            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+          </figure>
+        </article>
 
-          <article>
-            <figure>
-              <img
-                src="https://placehold.jp/800x600.png"
-                alt="Elephant at sunset"
-              />
-              <figcaption>An elephant at sunset</figcaption>
-            </figure>
-          </article>
+        <article class="featured-writings__article">
+          <figure>
+            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+          </figure>
+        </article>
 
-          <article>
-            <figure>
-              <img
-                src="https://placehold.jp/800x600.png"
-                alt="Elephant at sunset"
-              />
-              <figcaption>An elephant at sunset</figcaption>
-            </figure>
-          </article>
-        </div>
+        <article class="featured-writings__article">
+          <figure>
+            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+          </figure>
+        </article>
+
+        <article class="featured-writings__article">
+          <figure>
+            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+          </figure>
+        </article>
+      </div>
       </section>
     </main>
   </div>
