@@ -67,42 +67,42 @@
          <article class="featured-writings__article">
           <figure>
             <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
+            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
             <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image" />
-            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
+            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
             <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
+            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
             <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
+            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
             <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
+            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
             <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
+            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
           </figure>
         </article>
       </div>

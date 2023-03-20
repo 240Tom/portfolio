@@ -56,10 +56,10 @@ body {
   align-content: flex-start; //Items are packed to the start of the container.
   gap: 5em;
   padding-bottom: 150px;
-}
 
-.section-zero > * {
-  flex: 1 1 100%; // Flex grow, Flex shrink, flex basis.
+  & > * {
+    flex: 1 1 100%; // Flex grow, Flex shrink, flex basis.
+  }
 }
 
 .sentence-one {
@@ -126,45 +126,36 @@ body {
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-}
 
-.featured-writings__article {
-  box-sizing: border-box;
+  &__article {
+    box-sizing: border-box;
+    display: table;
+    width: min-content;
 
-  @media (max-width: 399px) {      
+    @media (max-width: 399px) {
+      width: 100%;
+    }
+
+    @media (min-width: 400px) and (max-width: 767px) {
+      width: 50%;
+    }
+
+    @media (min-width: 768px) and (max-width:1023px) {
+      width: 33%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      width: 33%;
+    }
+  }
+
+  &__image {
+    display: block;
     width: 100%;
+    height: 100%;
   }
 
-  @media (min-width: 400px) and (max-width: 767px) {
-    width: 50%;
+  &__caption {
+
   }
-
-  @media (min-width: 768px) and (max-width:1023px) {
-    width: 33%;
-  }
-
-  @media only screen and (min-width: 1024px) {
-    width: 33%;
-  }
-  
-}
-
-.featured-writings__image {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.featured-writings__overlay {
-  position: absolute;
-  bottom: 0;
-  background: #858585;
-  transition: 0.5s ease;
-  width: auto;
-  opacity: 1;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-  margin: 0px;
 }
