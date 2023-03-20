@@ -61,7 +61,7 @@
       </section> -->
 
       <section>
-        <h3>Featured Writings</h3>
+        <h3 class="section-two">Featured Writings</h3>
 
        <div class="featured-writings">
          <article class="featured-writings__article">
