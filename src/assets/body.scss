@@ -114,13 +114,13 @@ body {
   }
 }
 
-.featured-writings {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  box-sizing: border-box;
-}
+// .featured-writings {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: flex-start;
+//   align-items: center;
+//   box-sizing: border-box;
+// }
 
 .featured-writings__article {
   width: 33.33%;
@@ -148,4 +148,24 @@ body {
 
 .featured-writings__article:hover .featured-writings__overlay {
   opacity: 1;
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  .featured-writings{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .featured-writings{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  }
 }
