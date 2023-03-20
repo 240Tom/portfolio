@@ -117,12 +117,35 @@ body {
 .featured-writings {
   display: flex;
   flex-wrap: wrap;
-  justify-content:flex-start;
-  align-items:center;
+  justify-content: flex-start;
+  align-items: center;
   box-sizing: border-box;
 }
 
-.featured-writings__article{
+.featured-writings__article {
   width: 33.33%;
   box-sizing: border-box;
+}
+
+.featured-writings__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.featured-writings__overlay {
+  position: sticky;
+  bottom: 0;
+  background:#858585;
+  transition: 0.5s ease;
+  width: auto;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-writings__article:hover .featured-writings__overlay {
+  opacity: 1;
 }

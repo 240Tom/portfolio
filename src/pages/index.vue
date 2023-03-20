@@ -43,7 +43,7 @@
           <div class="featured-image">
             <img
               src="https://placehold.jp/800x600.png"
-              alt="Elephant at sunset"
+              alt="Green frog on a leaf"
             />
           </div>
           <div class="description"></div>
@@ -53,7 +53,7 @@
           <div class="featured-image">
             <img
               src="https://placehold.jp/800x600.png"
-              alt="Elephant at sunset"
+              alt="Green frog on a leaf"
             />
           </div>
           <div class="description"></div>
@@ -66,43 +66,43 @@
        <div class="featured-writings">
          <article class="featured-writings__article">
           <figure>
-            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
-            <figcaption>An elephant at sunset</figcaption>
+            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
+            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
-            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
-            <figcaption>An elephant at sunset</figcaption>
+            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image" />
+            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
-            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
-            <figcaption>An elephant at sunset</figcaption>
+            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
+            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
-            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
-            <figcaption>An elephant at sunset</figcaption>
+            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
+            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
-            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
-            <figcaption>An elephant at sunset</figcaption>
+            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
+            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
           </figure>
         </article>
 
         <article class="featured-writings__article">
           <figure>
-            <img src="~/assets/GreenFrog.png" alt="Elephant at sunset" />
-            <figcaption>An elephant at sunset</figcaption>
+            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
+            <figcaption class="featured-writings__overlay"> Green frog on a leaf</figcaption>
           </figure>
         </article>
       </div>
