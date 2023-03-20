@@ -37,75 +37,113 @@
         </p>
       </section>
 
-      <!-- <section class="section-one">
+      <section>
         <h3>Featured Projects</h3>
-        <article>
-          <div class="featured-image">
-            <img
-              src="https://placehold.jp/800x600.png"
-              alt="Green frog on a leaf"
-            />
-          </div>
-          <div class="description"></div>
-        </article>
+        <div class="featured-projects">
+          <article class="featured-projects__project">
+            <div class="featured-project__image">
+              <img
+                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
+                alt="Green frog on a leaf"
+              />
+            </div>
+            <div class="featured-project__description"></div>
+          </article>
 
-        <article>
-          <div class="featured-image">
-            <img
-              src="https://placehold.jp/800x600.png"
-              alt="Green frog on a leaf"
-            />
-          </div>
-          <div class="description"></div>
-        </article>
-      </section> -->
+          <article class="featured-project">
+            <div class="featured-project__image">
+              <img
+                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
+                alt="Green frog on a leaf"
+              />
+            </div>
+            <div class="featured-project__description"></div>
+          </article>
+        </div>
+      </section>
 
       <section>
         <h3 class="section-two">Featured Writings</h3>
 
-       <div class="featured-writings">
-         <article class="featured-writings__article">
-          <figure>
-            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
-          </figure>
-        </article>
+        <div class="featured-writings">
+          <article class="featured-writings__article">
+            <figure>
+              <img
+                src="~/assets/GreenFrog.png"
+                alt="Green frog on a leaf"
+                class="featured-writings__image"
+              />
+              <figcaption class="featured-writings__caption">
+                Green frog on a leaf
+              </figcaption>
+            </figure>
+          </article>
 
-        <article class="featured-writings__article">
-          <figure>
-            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image" />
-            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
-          </figure>
-        </article>
+          <article class="featured-writings__article">
+            <figure>
+              <img
+                src="~/assets/GreenFrog.png"
+                alt="Green frog on a leaf"
+                class="featured-writings__image"
+              />
+              <figcaption class="featured-writings__caption">
+                Green frog on a leaf
+              </figcaption>
+            </figure>
+          </article>
 
-        <article class="featured-writings__article">
-          <figure>
-            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
-          </figure>
-        </article>
+          <article class="featured-writings__article">
+            <figure>
+              <img
+                src="~/assets/GreenFrog.png"
+                alt="Green frog on a leaf"
+                class="featured-writings__image"
+              />
+              <figcaption class="featured-writings__caption">
+                Green frog on a leaf
+              </figcaption>
+            </figure>
+          </article>
 
-        <article class="featured-writings__article">
-          <figure>
-            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
-          </figure>
-        </article>
+          <article class="featured-writings__article">
+            <figure>
+              <img
+                src="~/assets/GreenFrog.png"
+                alt="Green frog on a leaf"
+                class="featured-writings__image"
+              />
+              <figcaption class="featured-writings__caption">
+                Green frog on a leaf
+              </figcaption>
+            </figure>
+          </article>
 
-        <article class="featured-writings__article">
-          <figure>
-            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
-          </figure>
-        </article>
+          <article class="featured-writings__article">
+            <figure>
+              <img
+                src="~/assets/GreenFrog.png"
+                alt="Green frog on a leaf"
+                class="featured-writings__image"
+              />
+              <figcaption class="featured-writings__caption">
+                Green frog on a leaf
+              </figcaption>
+            </figure>
+          </article>
 
-        <article class="featured-writings__article">
-          <figure>
-            <img src="~/assets/GreenFrog.png" alt="Green frog on a leaf" class="featured-writings__image"/>
-            <figcaption class="featured-writings__caption"> Green frog on a leaf</figcaption>
-          </figure>
-        </article>
-      </div>
+          <article class="featured-writings__article">
+            <figure>
+              <img
+                src="~/assets/GreenFrog.png"
+                alt="Green frog on a leaf"
+                class="featured-writings__image"
+              />
+              <figcaption class="featured-writings__caption">
+                Green frog on a leaf
+              </figcaption>
+            </figure>
+          </article>
+        </div>
       </section>
     </main>
   </div>
