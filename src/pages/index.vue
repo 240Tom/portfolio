@@ -37,7 +37,7 @@
         </p>
       </section>
 
-      <section>
+      <!-- <section>
         <h3>Featured Projects</h3>
         <div class="featured-projects">
           <article class="featured-projects__project">
@@ -46,12 +46,12 @@
                 src="~/assets/PXL_20220303_153759308_2 (1).jpg"
                 alt="Green frog on a leaf"
               />
-            </div>
-            <div class="featured-project__description"></div>
-          </article>
+              </div>
+              <div class="featured-project__description"></div>
+              </article>
 
-          <article class="featured-project">
-            <div class="featured-project__image">
+                <article class="featured-project">
+              <div class="featured-project__image">
               <img
                 src="~/assets/PXL_20220303_153759308_2 (1).jpg"
                 alt="Green frog on a leaf"
@@ -60,8 +60,47 @@
             <div class="featured-project__description"></div>
           </article>
         </div>
-      </section>
+      </section> -->
 
+      <section>
+        
+        <h3>Featured Projects</h3>
+
+        <div class="featured-projects">
+          <article class="featured-projects__article">
+            <figure>
+              <img
+                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
+                alt="Houses on an island in Belize"
+                class="featured-projects__image"
+              />
+              <figcaption class="featured-projects__caption">
+                Houses on an island in Belize
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="featured-projets__article">
+            <figure>
+              <img
+                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
+                alt="Houses on an island in Belize"
+                class="featured-projects__image"
+              />
+              <figcaption class="featured-projects__caption">
+                Houses on an island in Belize
+              </figcaption>
+            </figure>
+          </article>
+          </div>
+          </section>
+      
+      
+      
+      
+      
+      
+      
       <section>
         <h3 class="section-two">Featured Writings</h3>
 
