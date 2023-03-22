@@ -123,9 +123,9 @@ body {
 
 .featured-projects {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-start;
   box-sizing: border-box;
   gap: 10px;
@@ -164,6 +164,8 @@ body {
     
   }
 }
+
+
 
 .featured-writings {
   display: flex;
