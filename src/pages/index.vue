@@ -37,40 +37,14 @@
         </p>
       </section>
 
-      <!-- <section>
-        <h3>Featured Projects</h3>
-        <div class="featured-projects">
-          <article class="featured-projects__project">
-            <div class="featured-project__image">
-              <img
-                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
-                alt="Green frog on a leaf"
-              />
-              </div>
-              <div class="featured-project__description"></div>
-              </article>
-
-                <article class="featured-project">
-              <div class="featured-project__image">
-              <img
-                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
-                alt="Green frog on a leaf"
-              />
-            </div>
-            <div class="featured-project__description"></div>
-          </article>
-        </div>
-      </section> -->
-
       <section>
-        
-        <h3>Featured Projects</h3>
+        <h3 class="section-one">Featured Projects</h3>
 
         <div class="featured-projects">
           <article class="featured-projects__article">
-            <figure>
+            <figure class="featured-projects__figure">
               <img
-                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
+                src="~/assets/PXL_20220303_153759308_2(1).jpg"
                 alt="Houses on an island in Belize"
                 class="featured-projects__image"
               />
@@ -80,27 +54,21 @@
             </figure>
           </article>
 
-          <article class="featured-projets__article">
-            <figure>
+          <article class="featured-projects__article">
+            <figure class="featured-projects__figure">
               <img
-                src="~/assets/PXL_20220303_153759308_2 (1).jpg"
+                src="~/assets/PXL_20220303_153759308_2(1).jpg"
                 alt="Houses on an island in Belize"
-                class="featured-projects__image"
+                class="featured-projects__image--order-reverse"
               />
-              <figcaption class="featured-projects__caption">
+              <figcaption class="featured-projects__caption--order-reverse">
                 Houses on an island in Belize
               </figcaption>
             </figure>
           </article>
-          </div>
-          </section>
-      
-      
-      
-      
-      
-      
-      
+        </div>
+      </section>
+
       <section>
         <h3 class="section-two">Featured Writings</h3>
 

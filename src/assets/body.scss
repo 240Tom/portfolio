@@ -114,6 +114,14 @@ body {
   }
 }
 
+.section-one {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+
 .section-two {
   text-align: center;
   font-size: 36px;
@@ -122,49 +130,83 @@ body {
 }
 
 .featured-projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  box-sizing: border-box;
-  gap: 10px;
   
 
-  &__article-one {
+  &__article {
     
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 100%;
+    
+    @media (max-width: 399px) {
+      flex-basis: 30%;
+    }
+
+    @media (min-width: 400px) and (max-width: 767px) {
+      flex-basis: 50%;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      flex-basis: 33%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      flex-basis: 25%;
+    }
+    
   }
-  &__article-two {
-   
-    flex-grow: 1;
-    flex-shrink: 2;
-    flex-basis: auto;
+
+  &__figure {
+    display: flex;
+    gap: 10px;
+    padding: 0px 0px 15px 0px ;
+
+    
   }
 
   &__image {
-   
-    width: 66.66%;
-    height: 100%;
+    flex-basis: 33.33%;
+    min-width: 66.66%;
+    order: 1;
+    &--order-reverse{
+      order:2;
+      flex-basis: 33.33%;
+    min-width: 66.66%;
+    }
   }
 
   &__caption {
-    
+    display: block;
+    justify-content: center;
     background: #dbb1b1;
     padding: 5px;
-    width: 33.33%;
-    height: 100px;
-    line-height: 150px;
+    width: 33.33%; 
+    min-height: 80px;
     color: white;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-    
+    order: 2;
+    &--order-reverse{
+      order:1;
+      display: block;
+    justify-content: center;
+    background: #dbb1b1;
+    padding: 5px;
+    width: 33.33%; 
+    min-height: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    }
+ 
   }
+
+  
+
 }
 
+
+//featured-projects__image--order-reverse
+//featured-projects__caption--order-reverse
 
 
 .featured-writings {
@@ -185,22 +227,18 @@ body {
     // padding: 16px 0px 16px 0px;
 
     @media (max-width: 399px) {
-      
       flex-basis: 30%;
     }
 
     @media (min-width: 400px) and (max-width: 767px) {
-      
       flex-basis: 50%;
     }
 
     @media (min-width: 768px) and (max-width: 1023px) {
-     
       flex-basis: 33%;
     }
 
     @media only screen and (min-width: 1024px) {
-      
       flex-basis: 25%;
     }
   }
