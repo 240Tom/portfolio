@@ -1,0 +1,60 @@
+<template>
+  <section>
+    <h3 class="section-two">Featured Writings</h3>
+
+    <div class="featured-writings">
+      <FeaturedWriting />
+      <FeaturedWriting />
+      <FeaturedWriting />
+      <FeaturedWriting />
+      <FeaturedWriting />
+      <FeaturedWriting />
+    </div>
+  </section>
+</template>
+<style>
+.featured-writings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 10px;
+
+  &__article {
+    box-sizing: border-box;
+    display: table;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+
+    // padding: 16px 0px 16px 0px;
+
+    @media (max-width: 399px) {
+      flex-basis: 30%;
+    }
+
+    @media (min-width: 400px) and (max-width: 767px) {
+      flex-basis: 50%;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      flex-basis: 33%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      flex-basis: 25%;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__caption {
+  }
+}
+</style>
+<script lang="scss" setup></script>
