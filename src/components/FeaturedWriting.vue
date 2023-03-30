@@ -12,7 +12,7 @@
     </figure>
   </article>
 </template>
-<style>
+<style lang="scss">
 
 </style>
-<script lang="scss" setup></script>
+<script lang="ts" setup></script>

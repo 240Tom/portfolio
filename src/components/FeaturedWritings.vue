@@ -29,8 +29,6 @@
     flex-shrink: 1;
     flex-basis: 20%;
 
-    
-
     @media (max-width: 399px) {
       flex-basis: 30%;
     }
@@ -56,6 +54,13 @@
 
   &__caption {
   }
+}
+
+.section-two {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 </style>
 

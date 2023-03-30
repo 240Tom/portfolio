@@ -12,7 +12,7 @@
     </nav>
   </header>
 </template>
-<style>
+<style lang="scss">
 .header {
   height: 300px;
   display: flex;
@@ -31,6 +31,15 @@
   margin-left: auto;
   flex-grow: 1;
   flex: 1 1 70%;
+}
+
+.menu-list {
+  list-style: none;
+
+  &__item {
+    display: inline;
+    padding: 0px 10px;
+  }
 }
 </style>
 <script lang="ts" setup></script>

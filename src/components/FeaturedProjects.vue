@@ -10,14 +10,11 @@
   </section>
 </template>
 
-
 <style lang="scss">
-.featured-projects {
-  
 
+
+.featured-projects {
   &__article {
-    
-    
     @media (max-width: 399px) {
       flex-basis: 30%;
     }
@@ -33,25 +30,22 @@
     @media only screen and (min-width: 1024px) {
       flex-basis: 25%;
     }
-    
   }
 
   &__figure {
     display: flex;
     gap: 10px;
-    padding: 0px 0px 15px 0px ;
-
-    
+    padding: 0px 0px 15px 0px;
   }
 
   &__image {
     flex-basis: 33.33%;
     min-width: 66.66%;
     order: 1;
-    &--order-reverse{
-      order:2;
+    &--order-reverse {
+      order: 2;
       flex-basis: 33.33%;
-    min-width: 66.66%;
+      min-width: 66.66%;
     }
   }
 
@@ -60,32 +54,34 @@
     justify-content: center;
     background: #dbb1b1;
     padding: 5px;
-    width: 33.33%; 
+    width: 33.33%;
     min-height: 80px;
     color: white;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
     order: 2;
-    &--order-reverse{
-      order:1;
+    &--order-reverse {
+      order: 1;
       display: block;
-    justify-content: center;
-    background: #dbb1b1;
-    padding: 5px;
-    width: 33.33%; 
-    min-height: 80px;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    text-align: center;
+      justify-content: center;
+      background: #dbb1b1;
+      padding: 5px;
+      width: 33.33%;
+      min-height: 80px;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      text-align: center;
     }
- 
   }
-
-  
-
 }
 
+.section-one {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
 </style>
 <script lang="ts" setup></script>
