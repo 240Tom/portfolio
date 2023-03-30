@@ -9,9 +9,9 @@
     </div>
   </section>
 </template>
-<script lang="ts" setup></script>
 
-<style>
+
+<style lang="scss">
 .featured-projects {
   
 
@@ -88,3 +88,4 @@
 }
 
 </style>
+<script lang="ts" setup></script>

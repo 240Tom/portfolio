@@ -12,7 +12,8 @@
     </div>
   </section>
 </template>
-<style>
+
+<style lang="scss">
 .featured-writings {
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +29,7 @@
     flex-shrink: 1;
     flex-basis: 20%;
 
-    // padding: 16px 0px 16px 0px;
+    
 
     @media (max-width: 399px) {
       flex-basis: 30%;
@@ -57,4 +58,5 @@
   }
 }
 </style>
-<script lang="scss" setup></script>
+
+<script lang="ts" setup></script>

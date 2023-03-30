@@ -22,7 +22,7 @@
     </p>
   </section>
 </template>
-<style>
+<style lang="scss">
 .section-zero {
   display: flex; 
   flex-wrap: wrap; 
@@ -46,19 +46,19 @@
   font-size: 24px;
   font-weight: 400;
   &__small {
-    //text__small
+   
     font-size: 24px;
   }
   &__medium {
-    //text__medium
+    
     font-size: 44px;
     color: #8b8787;
   }
   &__large {
-    //text__large
+   
     font-size: 64px;
     &--highlight {
-      //block_element--modifier
+      
       color: rgb(197, 171, 38);
     }
   }

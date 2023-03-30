@@ -15,4 +15,4 @@
 <style>
 
 </style>
-<script lang="ts" setup></script>
+<script lang="scss" setup></script>
