@@ -4,8 +4,10 @@
 
     <div class="featured-projects">
       <FeaturedProject />
+      <FeaturedProject />
+      <FeaturedProject />
 
-      <FeaturedProject reverse="true" />
+      <FeaturedProject :orderreverse=true />
     </div>
   </section>
 </template>
@@ -84,4 +86,11 @@
   padding-top: 16px;
 }
 </style>
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { booleanLiteral } from '@babel/types';
+
+
+
+
+
+</script>

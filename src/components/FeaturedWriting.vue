@@ -3,16 +3,26 @@
     <figure>
       <img
         src="~/assets/GreenFrog.png"
-        alt="Green frog on a leaf"
+        :alt=caption
         class="featured-writings__image"
       />
       <figcaption class="featured-writings__caption">
-        Green frog on a leaf
+        {{ caption }}
       </figcaption>
     </figure>
   </article>
 </template>
-<style lang="scss">
-
-</style>
-<script lang="ts" setup></script>
+<style lang="scss"></style>
+<script lang="ts" setup>
+const props = defineProps({
+  image: {
+    type: String,
+    // default: "text",
+    required: false,
+  },
+  caption: {
+    type: String,
+    required: true,
+  },
+});
+</script>

@@ -3,12 +3,10 @@
     <h3 class="section-two">Featured Writings</h3>
 
     <div class="featured-writings">
-      <FeaturedWriting />
-      <FeaturedWriting />
-      <FeaturedWriting />
-      <FeaturedWriting />
-      <FeaturedWriting />
-      <FeaturedWriting />
+      <FeaturedWriting caption="loremipsum" />
+      <FeaturedWriting caption="asdfas" />
+      <FeaturedWriting caption="klkjlk" />
+      <FeaturedWriting caption="kjlkj" />
     </div>
   </section>
 </template>

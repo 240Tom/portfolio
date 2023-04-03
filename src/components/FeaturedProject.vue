@@ -4,17 +4,37 @@
       <img
         src="~/assets/PXL_20220303_153759308_2(1).jpg"
         alt="Houses on an island in Belize"
-        class="featured-projects__image--order-reverse"
+        :class=classNameimages 
       />
-      <figcaption class="featured-projects__caption--order-reverse">
+      <figcaption :class=classNamecaptions >
         Houses on an island in Belize
       </figcaption>
     </figure>
   </article>
 </template>
 
-<style lang="scss">
+<style lang="scss"></style>
 
-</style>
+<script lang="ts" setup>
 
-<script lang="ts" setup></script>
+import { ref, computed } from "vue";
+
+const props = defineProps({
+  orderreverse: {
+    type: Boolean,
+    default: false,
+    required: false,
+  },
+ 
+});
+
+const classNameimages = computed(() => {
+      return props.orderreverse==true ? "featured-projects__image--order-reverse" :"featured-projects__image";
+    });
+    const classNamecaptions = computed(() => {
+      return props.orderreverse==true ? "featured-projects__caption--order-reverse" :"featured-projects__caption";
+    });
+
+
+
+</script>
