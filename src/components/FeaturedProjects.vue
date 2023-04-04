@@ -3,18 +3,13 @@
     <h3 class="section-one">Featured Projects</h3>
 
     <div class="featured-projects">
-      <FeaturedProject />
-      <FeaturedProject />
-      <FeaturedProject />
-
-      <FeaturedProject :orderreverse=true />
+      <FeaturedProject v-for="project in projects" :orderreverse=project.reverse />
+      
     </div>
   </section>
 </template>
 
 <style lang="scss">
-
-
 .featured-projects {
   &__article {
     @media (max-width: 399px) {
@@ -87,10 +82,12 @@
 }
 </style>
 <script lang="ts" setup>
-import { booleanLiteral } from '@babel/types';
+import { booleanLiteral } from "@babel/types";
 
-
-
-
-
+let projects = [
+  {reverse: false,}, 
+  {reverse: true,},
+  {reverse: true,},
+  
+];
 </script>

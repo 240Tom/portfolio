@@ -3,10 +3,8 @@
     <h3 class="section-two">Featured Writings</h3>
 
     <div class="featured-writings">
-      <FeaturedWriting caption="loremipsum" />
-      <FeaturedWriting caption="asdfas" />
-      <FeaturedWriting caption="klkjlk" />
-      <FeaturedWriting caption="kjlkj" />
+      <FeaturedWriting :caption=writing.caption v-for="writing in writings" />
+      
     </div>
   </section>
 </template>
@@ -62,4 +60,35 @@
 }
 </style>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { sanitizeFilePath } from 'mlly';
+import { text } from 'stream/consumers';
+import { tagWeight } from 'unhead';
+
+let writings = [
+  {caption: 'imageone'},
+  {caption:'imagetwo'},
+  {caption:'imagethree'},
+  {caption:'imagefour'},
+  {caption:'imagefour'},
+  {caption:'imagefour'}
+]
+
+// let ball={
+//   color
+//   text
+//   weight
+//   size
+//   bounciness
+// }
+
+// let car={
+//   type
+//   numberofseats
+//   Brand
+//   year
+
+
+
+</script>
+

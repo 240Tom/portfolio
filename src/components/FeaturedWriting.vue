@@ -14,6 +14,9 @@
 </template>
 <style lang="scss"></style>
 <script lang="ts" setup>
+
+//added javascripts 
+
 const props = defineProps({
   image: {
     type: String,
