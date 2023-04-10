@@ -17,9 +17,9 @@
 
 <script lang="ts" setup>
 
-import { ref, computed } from "vue";
+import { ref, computed } from "vue"; //Computed - always know what the value is
 
-const props = defineProps({
+const props = defineProps({ //props - how we accepts input into a component. 
   orderreverse: {
     type: Boolean,
     default: false,
@@ -36,5 +36,5 @@ const classNameimages = computed(() => {
     });
 
 
-
+//Composition api - 
 </script>

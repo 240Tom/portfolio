@@ -70,8 +70,8 @@ let writings = [
   {caption:'imagetwo'},
   {caption:'imagethree'},
   {caption:'imagefour'},
-  {caption:'imagefour'},
-  {caption:'imagefour'}
+  {caption:'imagefive'},
+  {caption:'imagesix'}
 ]
 
 // let ball={
@@ -85,7 +85,7 @@ let writings = [
 // let car={
 //   type
 //   numberofseats
-//   Brand
+//   make
 //   year
 
 
