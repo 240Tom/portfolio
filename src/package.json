@@ -14,5 +14,8 @@
     "sass": "^1.60.0",
     "sass-loader": "^10.4.1",
     "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "nuxt-jsonapi": "^2.0.1"
   }
 }

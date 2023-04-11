@@ -17,7 +17,7 @@
 
 //added javascripts 
 
-const props = defineProps({
+const props = defineProps({ //Input parameters for a view components. 
   image: {
     type: String,
     // default: "text",
@@ -25,7 +25,9 @@ const props = defineProps({
   },
   caption: {
     type: String,
-    required: true,
+    required: false,
   },
 });
+
+
 </script>

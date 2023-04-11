@@ -1,0 +1,21 @@
+{
+    "writings":[
+      { "id": 1, "title": "json-server", "author": "typicode" },
+      { "id": 1, "title": "json-server", "author": "typicode" },
+      { "id": 1, "title": "json-server", "author": "typicode" },
+      { "id": 1, "title": "json-server", "author": "typicode" },
+      {"caption": "imageone"},
+      {"caption":"imagetwo"},
+      {"caption":"imagethree"},
+      {"caption":"imagefour"},
+      {"caption":"imagefive"},
+      {"caption":"imagesix"}
+      
+      
+    ]
+    ,
+    "projects": [
+        { "id": 1, "title": "json-server", "author": "typicode" }
+      ]
+    
+  }
