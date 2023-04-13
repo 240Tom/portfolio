@@ -17,7 +17,7 @@
 
 //added javascripts 
 
-const props = defineProps({ //Input parameters for a view components. 
+const props = defineProps({ //Input parameters for a view components, slot and prop. 
   image: {
     type: String,
     // default: "text",
@@ -25,7 +25,7 @@ const props = defineProps({ //Input parameters for a view components.
   },
   caption: {
     type: String,
-    required: false,
+    required: true,
   },
 });
 

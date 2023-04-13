@@ -1,0 +1,53 @@
+{
+  "writings": [
+    {
+      "name": "A complete guide to flexbox",
+      "author": "Chris Coyler",
+      "description": "Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.",
+      "purpose": "Help FE developers understand how Flexbox works and all of its properites.",
+      "featured_writing_file_path": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "logo_file_path": "~/assets/GreenFrog.png"
+    },
+    {
+      "name": "CSS reference doc",
+      "author": "mdn",
+      "description": "Use this CSS reference to browse an alphabetical index of all of the standard CSS properties, pseudo-classes, pseudo-elements, data types, functional notations and at-rules. You can also browse key CSS concepts and a list of selectors organized by type. Also included is a brief DOM-CSS / CSSOM reference.",
+      "purpose": "CSS reference guide for FE developers",
+      "featured_writing_file_path": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index",
+      "logo_file_path": "~/assets/GreenFrog.png"
+    },
+    {
+      "name": "BEM 101",
+      "author": "Robin Rendle,",
+      "description": "The following is a collaborative post by guest Joe Richardson, Robin Rendle, and a bunch of the CSS-Tricks staff. Joe wanted to do a post about BEM, which we loved, and just about everybody around here had thoughts and opinions about BEM, so we figured we’d all get together on it and do it together.",
+      "purpose": "Help developers understand BEM Methodology",
+      "featured_writing_file_path": "https://css-tricks.com/bem-101/",
+      "logo_file_path": "~/assets/GreenFrog.png"
+    },
+    {
+      "name": "Pseudo-classes",
+      "author": "mdn",
+      "description": "A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, the pseudo-class :hover can be used to select a button when a user's pointer hovers over the button and this selected button can then be styled.",
+      "purpose": "Help FE developers understand Pseudo-classes in CSS",
+      "featured_writing_file_path": "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes",
+      "logo_file_path": "~/assets/GreenFrog.png"
+    },
+    {
+      "name": "Display Property",
+      "author": "mdn",
+      "description": "The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.",
+      "purpose": "Help FE developers understand Properties in CSS",
+      "featured_writing_file_path": "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+      "logo_file_path": "~/assets/GreenFrog.png"
+    },
+
+    {
+      "name": "Specificity",
+      "author": "mdn",
+      "description": "Specificity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element. The specificity algorithm calculates the weight of a CSS selector to determine which rule from competing CSS declarations gets applied to an element.",
+      "purpose": "Help FE developers understand specificity in CSS",
+      "featured_writing_file_path": "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity",
+      "logo_file_path": "~/assets/GreenFrog.png"
+    }
+  ]
+}

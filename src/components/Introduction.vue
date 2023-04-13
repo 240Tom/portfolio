@@ -13,7 +13,7 @@
         </div>
       </h1>
     </div>
-    <h2 class="text__medium">I make thangs for the internet.</h2>
+    <h2 class="text__medium">I make things for the internet.</h2>
 
     <p class="cta">
       This is an endeavour so lets goooo!!! 

@@ -1,21 +1,103 @@
 {
-    "writings":[
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      { "id": 1, "title": "json-server", "author": "typicode" },
-      {"caption": "imageone"},
-      {"caption":"imagetwo"},
-      {"caption":"imagethree"},
-      {"caption":"imagefour"},
-      {"caption":"imagefive"},
-      {"caption":"imagesix"}
-      
-      
-    ]
-    ,
-    "projects": [
-        { "id": 1, "title": "json-server", "author": "typicode" }
-      ]
-    
-  }
+  "writings": [
+    {
+      "tag": null,
+      "name": "Featured Writing 1",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 1 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/GreenFrog.png",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "tag": null,
+      "name": "Featured Writing 2",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 2 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/GreenFrog.png",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "tag": null,
+      "name": "Featured Writing 3",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 3 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/GreenFrog.png",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "tag": null,
+      "name": "Featured Writing 4",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 4 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/GreenFrog.png",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "tag": null,
+      "name": "Featured Writing 5",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 5 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/GreenFrog.png",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "tag": null,
+      "name": "Featured Writing 6",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 6 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/GreenFrog.png",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    }
+  ],
+  "projects": [
+    {
+      "tag": null,
+      "name": "Featured Project 1",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 6 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/PXL_20220303_153759308_2(1).jpg",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+
+    {
+      "tag": null,
+      "name": "Featured Project 2",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 6 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~~/assets/PXL_20220303_153759308_2(1).jpg",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    }
+  ]
+}

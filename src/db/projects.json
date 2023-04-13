@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "tag": null,
+      "name": "Featured Project 1",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 6 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~/assets/PXL_20220303_153759308_2(1).jpg",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    },
+
+    {
+      "tag": null,
+      "name": "Featured Project 2",
+      "author": "author of the featured writing",
+      "description": "Featured Writing 6 description",
+      "purpose": "Featured Writing purpose",
+      "is_featured": false,
+      "logo_file_path": "~~/assets/PXL_20220303_153759308_2(1).jpg",
+      "created_at": "2023-01-14T16:55:41.000000Z",
+      "updated_at": "2023-01-17T21:00:40.000000Z",
+      "deleted_at": null
+    }
+  ]
+}
