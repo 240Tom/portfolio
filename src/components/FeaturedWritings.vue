@@ -3,7 +3,7 @@
     <h3 class="section-two">Featured Writings</h3>
 
     <div class="featured-writings">
-      <FeaturedWriting :caption="writing.caption" v-for="writing in writings" />
+      <FeaturedWriting :caption="writing.name" v-for="writing in writings" />
     </div>
   </section>
 </template>
@@ -64,14 +64,18 @@ import { sanitizeFilePath } from "mlly";
 import { text } from "stream/consumers";
 import { tagWeight } from "unhead";
 
-let writings = [
-  { caption: "imageone" },
-  { caption: "imagetwo" },
-  { caption: "imagethree" },
-  { caption: "imagefour" },
-  { caption: "imagefive" },
-  { caption: "imagesix" },
-];
+ 
+ const response = await fetch('http://localhost:3001/writings');
+  const writings = await response.json();
+
+ 
+//   { caption: "imageone" },
+//   { caption: "imagetwo" },
+//   { caption: "imagethree" },
+//   { caption: "imagefour" },
+//   { caption: "imagefive" },
+//   { caption: "imagesix" },
+// ];
 
 // let ball={
 //   color
@@ -86,4 +90,6 @@ let writings = [
 //   numberofseats
 //   make
 //   year
+
+
 </script>
