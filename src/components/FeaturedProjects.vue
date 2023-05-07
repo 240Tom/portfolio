@@ -3,7 +3,11 @@
     <h3 class="section-one">Featured Projects</h3>
 
     <div class="featured-projects">
-      <FeaturedProject v-for="project in projects" :orderreverse=project.reverse />
+      <FeaturedProject
+        :classNamecaptions="projects.name"
+        v-for="project in projects"
+        :orderreverse="project.reverse"
+      />
       
     </div>
   </section>
@@ -83,11 +87,9 @@
 </style>
 <script lang="ts" setup>
 import { booleanLiteral } from "@babel/types";
+import { tagWeight } from "unhead";
+let featuredproject = [{ reverse: false }, { reverse: true }];
 
-let projects = [
-  {reverse: false,}, 
-  {reverse: true,},
-  {reverse: true,},
-  
-];
+const response = await fetch("http://localhost:3002/projects");
+const projects = await response.json();
 </script>

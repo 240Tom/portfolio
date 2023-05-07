@@ -64,32 +64,8 @@ import { sanitizeFilePath } from "mlly";
 import { text } from "stream/consumers";
 import { tagWeight } from "unhead";
 
- 
- const response = await fetch('http://localhost:3001/writings');
-  const writings = await response.json();
-
- 
-//   { caption: "imageone" },
-//   { caption: "imagetwo" },
-//   { caption: "imagethree" },
-//   { caption: "imagefour" },
-//   { caption: "imagefive" },
-//   { caption: "imagesix" },
-// ];
-
-// let ball={
-//   color
-//   text
-//   weight
-//   size
-//   bounciness
-// }
-
-// let car={
-//   type
-//   numberofseats
-//   make
-//   year
+const response = await fetch("http://localhost:3001/writings");
+const writings = await response.json();
 
 
 </script>
